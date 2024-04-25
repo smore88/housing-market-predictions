@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is focused on developing predictive models to estimate the sale prices of houses based on a diverse set of features. Our goal is to employ advanced regression techniques to create a robust model that accurately predicts house prices based on characteristics like the area, number of rooms, garage type, and many others.
+This project is focused on developing predictive models to estimate the sale prices of houses based on a diverse set of features in Aimes, Iowa. My goal is to develop multiple machine learning regression models and figure out which models fit best for analyzing high dimensional data such as this. The goal is to test various hyperparameters and use standard libraries like GridSearchCV, SVR, RandomForestRegressor, and more to accurately predicts house prices based on characteristics like the area, number of rooms, garage type, and others.
 
 ## Dataset
 
@@ -24,10 +24,5 @@ The target variable is `SalePrice`, which we aim to predict.
 - `data_description.txt` - full description of each column.
 
 ## Model Development
-
-We use various regression models, including but not limited to:
-- Linear Regression
-- Ridge Regression
-- Gradient Boosting Regressor
 
 Each model is evaluated based on the root-mean-squared error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales prices. Such a transformation ensures that errors in predicting expensive houses and cheap houses will affect the result equally.
